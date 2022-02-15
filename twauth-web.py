@@ -127,7 +127,7 @@ def callback():
     del oauth_store[oauth_token]
 
     return render_template('callback-success.html', screen_name=screen_name, user_id=user_id, name=name,
-                           friends_count=friends_count, statuses_count=statuses_count, followers_count=followers_count, access_token_url=access_token_url)
+                           friends_count=friends_count, statuses_count=statuses_count, followers_count=followers_count, access_token_url=access_token_url, real_oauth_token=real_oauth_token, real_oauth_token_secret=real_oauth_token_secret)
 
 
 @app.errorhandler(500)
