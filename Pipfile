@@ -11,7 +11,7 @@ itsdangerous = "*"
 Flask = "*"
 "Jinja2" = "*"
 MarkupSafe = "*"
-Werkzeug = "*"
+werkzeug = "*"
 
 [dev-packages]
 
